@@ -1,0 +1,62 @@
+header{
+    background-color: rgb(148, 142, 142);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 30%;
+}
+h1{
+    font-size: 35px;
+    color: rgb(46, 22, 85);
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 21px;
+    color: rgb(22, 22, 105);
+}
+#ASPECTO {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#ASPECTO iframe{
+    padding: 10%;
+    margin: 10%;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(175, 210, 230);
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caja img{
+    border-radius: 50%;
+}
+.caja p{
+    font-size: 12px;
+}
